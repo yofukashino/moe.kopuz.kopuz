@@ -64,14 +64,9 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://github.com/Kopuz-org/kopuz.git",
-          "tag": "v0.14.0",
-          "commit": "354ac3d04ee65aeec2a7bb38a2fe2a5406848143",
-          "x-checker-data": {
-            "type": "git",
-            "is-main-source": true,
-            "tag-pattern": "^v(\\d+\\.\\d+\\.\\d+)$"
-          }
+          "url": "https://github.com/yofukashino/kopuz.git",
+          "branch": "flatpak",
+          "commit": "0d2a4faceef303f042efcbdf0235d0a22392ef04"
         },
         "dioxus-cli.json",
         "cargo-sources.json",
