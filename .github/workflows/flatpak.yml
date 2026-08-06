@@ -28,6 +28,8 @@ jobs:
       # Checkout a repository with Flatpak manifests
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodules: true
 
       - name: Setup GPG
         if: ${{ github.triggering_actor == github.repository_owner }}
